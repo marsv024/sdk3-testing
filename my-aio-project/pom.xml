@@ -56,6 +56,7 @@
         <!-- Compile with Java 7, default is 5 -->
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
+        
     </properties>
 
     <!-- Libs used in Unit and Integration tests -->
@@ -293,7 +294,7 @@
                     <enableShare>true</enableShare>
                     <!-- Enable the REST API Explorer -->
                     <enableApiExplorer>true</enableApiExplorer>
-
+                    <tomcat.port>8761</tomcat.port>
                     <!--
                         JARs and AMPs that should be overlayed/applied to the Platform/Repository WAR
                         (i.e. alfresco.war)

@@ -43,7 +43,7 @@ import static org.junit.Assert.assertNotNull;
 public class HelloWorldWebScriptIT {
     @Test
     public void testWebScriptCall() throws Exception {
-        String webscriptURL = "http://localhost:8080/alfresco/service/sample/helloworld";
+        String webscriptURL = "http://localhost:8765/alfresco/service/sample/helloworld";
         String expectedResponse = "Message: 'Hello from JS!' 'HelloFromJava'";
 
         // Login credentials for Alfresco Repo

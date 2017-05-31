@@ -44,7 +44,7 @@ import static org.junit.Assert.assertNotNull;
 // will default to http://localhost:8080/alfresco if
 // not provided. This shows the syntax but simply
 // sets the value back to the default value.
-@Remote(endpoint = "http://localhost:8080/alfresco")
+@Remote(endpoint = "http://localhost:8765/alfresco")
 public class DemoComponentIT extends AbstractAlfrescoIT {
 
     @Test
