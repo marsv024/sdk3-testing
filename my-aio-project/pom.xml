@@ -294,7 +294,6 @@
                     <enableShare>true</enableShare>
                     <!-- Enable the REST API Explorer -->
                     <enableApiExplorer>true</enableApiExplorer>
-                    <tomcat.port>8761</tomcat.port>
                     <!--
                         JARs and AMPs that should be overlayed/applied to the Platform/Repository WAR
                         (i.e. alfresco.war)
