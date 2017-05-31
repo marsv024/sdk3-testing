@@ -38,6 +38,7 @@ import java.io.Serializable;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import org.alfresco.rad.test.Remote;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -50,6 +51,7 @@ import static org.junit.Assert.assertTrue;
  * @since 3.0
  */
 @RunWith(value = AlfrescoTestRunner.class)
+@Remote(endpoint = "http://localhost:8765/alfresco")
 public class CustomContentModelIT extends AbstractAlfrescoIT {
     private static final String ACME_MODEL_NS = "{http://www.acme.org/model/content/1.0}";
     private static final String ACME_MODEL_LOCALNAME = "contentModel";
